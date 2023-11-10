@@ -1,4 +1,6 @@
 import Typography from "@mui/material/Typography";
+import IconButton from "@mui/material/IconButton";
+import FacebookIcon from "@mui/icons-material/Facebook";
 
 function ProfileDetails() {
   return (
@@ -9,15 +11,13 @@ function ProfileDetails() {
           top: "50%",
           right: "10%",
           transform: "translateY(-50%)",
-          fontSize: '24px',
-          fontFamily: 'Arial, sans-serif'
+          fontSize: "24px",
+          fontFamily: "Arial, sans-serif",
         }}
       >
-        My details<br/>
-        Name: Soumik Bhattacharjee<br/>
-        Father's Name: Rabindra Narayan Bhattacharjee<br/>
-        Mother's Name: Seema Rani Acharjee<br/>
-        Present Address: Sadar, Dinajpur
+        <IconButton color="primary" aria-label="add to shopping cart">
+          <FacebookIcon />
+        </IconButton>
       </Typography>
     </>
   );

@@ -7,17 +7,15 @@ function ProfileDetails() {
         sx={{
           position: "absolute",
           top: "50%",
-          right: "10%",
+          left: "10%",
           transform: "translateY(-50%)",
-          fontSize: '24px',
+          fontSize: '36px',
           fontFamily: 'Arial, sans-serif'
         }}
       >
-        My details<br/>
-        Name: Soumik Bhattacharjee<br/>
-        Father's Name: Rabindra Narayan Bhattacharjee<br/>
-        Mother's Name: Seema Rani Acharjee<br/>
-        Present Address: Sadar, Dinajpur
+        Welcome!<br/>
+        This is <i><b>Soumik Bhattacharjee</b></i><br/>
+        & you are watching <b>My Portfolio</b>
       </Typography>
     </>
   );

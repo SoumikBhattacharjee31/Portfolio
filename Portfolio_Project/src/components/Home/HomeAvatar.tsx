@@ -1,6 +1,6 @@
 import Avatar from "@mui/material/Avatar";
 
-function ProfileAvatar() {
+function HomeAvatar() {
   return (
     <>
       <Avatar
@@ -19,4 +19,4 @@ function ProfileAvatar() {
   );
 }
 
-export default ProfileAvatar;
+export default HomeAvatar;
